@@ -25,7 +25,8 @@ while(i<=m && j<=e){
 // copy the rest of the left part of the array into the buffer or the right part of the array into the buffer (if one of the them exhausted before)
 while(i<=m){
         a[k]=buffer[i-s];
-        i++;k++;
+        i++;
+        k++;
  
 }
 while(j<=e){
@@ -47,7 +48,6 @@ combine(a,s,mid,e);
 void MergeSort(int a[],int n)
 {
 merge_help(a,0,n-1);
-
 
 
 }
